@@ -1,0 +1,271 @@
+html, body {
+    
+height:100%;
+background-image :url('../images/orange_wallpaper.jpg');
+background-attachment: fixed;
+background-repeat:repeat-x;
+background-size: contain;
+-moz-background-size: contain;
+background-size: 100%;
+
+}
+html {
+    overflow-y: scroll;
+}
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+
+#wrap
+{
+	min-height:100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -120px; /*the bottom margin is the negative value of the footer's height*/
+}
+
+
+/* LOGIN PAGES */
+#header{   
+
+ 
+height:20px;
+
+}
+#headerleft{
+  
+    height:20px;
+}
+#headerright{
+
+    height:20px;
+    
+}
+
+#grid_6t{
+    
+font-family: 'Happy Monkey', cursive;
+      text-shadow:
+	1px 1px 0 #CCC,
+	2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+	3px 3px 0 #444,
+	4px 4px 0 #444,
+	5px 5px 0 #444,
+	6px 6px 0 #444; /* end of 4 level deep dark shadow */
+   font-size: 80px;
+   padding: 0px 0px 0px 0px;
+   
+}
+
+#contenttitle{
+font-family: 'Glass Antiqua', cursive;
+background-image: url('../images/orange.png');
+background-attachment: fixed;
+background-repeat:repeat-x;
+background-size: contain;
+-moz-background-size: contain;
+background-size: 100%;
+
+
+ 
+    height: 105px;
+    padding: 20px 0px 25px 160px;
+}
+h1{
+  
+}
+
+/* LOGIN PAGES */
+#contentwhole{
+   border:4px solid #FF800D;
+    border-radius: 10px;
+    height:395px;
+    background-image :url('../images/orange_world (1).jpg');
+}
+#contentsmall{
+    font-family: 'Glass Antiqua', cursive;
+    background-image: url('../images/orange.png');
+    Border: solid 3px #dcd7e3;
+    border-radius: 10px;  
+       height:300px;
+}
+#footer{
+   height:80px;
+   text-align: right;
+}
+/* LEFT SIDE */
+
+/***FIRST STYLE THE BUTTON***/
+input#submitbutton {
+border:2px groove #FF800D;
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding: 5px 25px;
+/*give the background a gradient - see cssdemos.tupence.co.uk/gradients.htm for more info*/
+background-color:#FFB428; /*required for browsers that don't support gradients*/
+background: -webkit-gradient(linear, left top, left bottom, from(#88add7), to(#FFB428));
+background: -webkit-linear-gradient(top, #FFA04A, #FFB428);
+background: -moz-linear-gradient(top, #FFA04A, #FFB428);
+background: -o-linear-gradient(top,#FFB428, #FFB428);
+background: linear-gradient(top, #FFB428, #FFB428);
+/*style to the text inside the button*/
+font-family:Andika, Arial, sans-serif; /*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+color:#fff;
+font-size:1.1em;
+letter-spacing:.1em;
+font-variant:small-caps;
+/*give the corners a small curve*/
+-webkit-border-radius: 0 15px 15px 0;
+-moz-border-radius: 0 15px 15px 0;
+border-radius: 0 15px 15px 0;
+/*add a drop shadow to the button*/
+-webkit-box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+-moz-box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#submitbutton:hover, input#submitbutton:focus {
+color:#edebda;
+/*reduce the spread of the shadow to give a pushed effect*/
+-webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+-moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+}
+
+
+
+input#submitbutton2 {
+border:2px groove #FF800D;
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding: 5px 25px;
+/*give the background a gradient - see cssdemos.tupence.co.uk/gradients.htm for more info*/
+background-color:#FFB428; /*required for browsers that don't support gradients*/
+background: -webkit-gradient(linear, left top, left bottom, from(#88add7), to(#FFB428));
+background: -webkit-linear-gradient(top, #FFA04A, #FFB428);
+background: -moz-linear-gradient(top, #FFA04A, #FFB428);
+background: -o-linear-gradient(top,#FFB428, #FFB428);
+background: linear-gradient(top, #FFB428, #FFB428);
+/*style to the text inside the button*/
+font-family:Andika, Arial, sans-serif; /*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+color:#fff;
+font-size:1.1em;
+letter-spacing:.1em;
+font-variant:small-caps;
+/*give the corners a small curve*/
+-webkit-border-radius: 15px 15px 15px 15px;
+-moz-border-radius: 15px 15px 15px 15px;
+border-radius: 15px 15px 15px 15px;
+/*add a drop shadow to the button*/
+-webkit-box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+-moz-box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+}
+/***NOW STYLE THE BUTTON'S HOVER AND FOCUS STATES***/
+input#submitbutton:hover, input#submitbutton:focus {
+color:#edebda;
+/*reduce the spread of the shadow to give a pushed effect*/
+-webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+-moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+}
+
+/* LEFT SIDE */
+#loginleft{
+         Border: solid 1px #red;
+    border-radius: 10px;
+    height:400px;
+}
+#loginlefts{
+    border-top: solid 1px #dcd7e3;
+    border-bottom: solid 1px #dcd7e3;
+    height:45px;
+  
+}
+#loginleft1{
+    font-size: 27px;
+   padding-bottom:  25px;
+    Border: solid 1px #FFB428;
+    border-radius: 4px;
+    height:100px;
+    background-image: url('../images/orange_wave (2).jpg');
+}
+#loginleft2{
+
+    Border: solid 1px #FFB428;
+    border-radius: 4px;
+    height:110px;
+    font-family:Kavoon;
+      text-shadow:
+	1px 1px 0 #CCC,
+	2px 2px 0 #CCC, /* end of 2 level deep grey shadow */
+	3px 3px 0 #444,
+	4px 4px 0 #444,
+	5px 5px 0 #444,
+	6px 6px 0 #444; /* end of 4 level deep dark shadow */
+   font-size: 35px;
+   padding: 25px 0px 0px 0px;
+   background-image: url('../images/orange_wave (1).jpg');
+}
+#loginleft3{
+    
+    Border: solid 1px #FFB428;
+    border-radius: 4px;
+    height:250px;
+    background-image: url('../images/orange_wave.jpg');
+}
+/* RIGHT SIDE */
+#loginright{
+  
+    border-radius: 10px;
+    height:600px;
+}
+
+#loginright1{
+    Border: solid 1px #FFB428;
+    border-radius: 10px;
+    height:100px;
+    background-image: url('../images/orange_world.jpg');
+}
+#loginright2{
+    Border: solid 1px #FFB428;
+    border-radius: 10px;
+    height:400px;
+    background-color: #FF800D;
+}
+/* RIGHT SIDE */
+
+
+/* FOOTER */
+
+#footer2{
+     border-top: solid 1px #dcd7e3;
+text-align:right;
+    height:75px;   
+   color:red;
+}
+
+
+
+/* FOOTER */
+
+
+/* LINKS */
+
+a:link {color:#262626; text-decoration: none;}      /* unvisited link */
+a:visited {color:#262626;}  /* visited link */
+a:hover {color:#63a8cf;}  /* mouse over link */
+a:active {color:#262626;}  /* selected link */ 
+
+/* LINKS */
+
+
+/* FORMS */
+
+
+
+/* FORMS */
